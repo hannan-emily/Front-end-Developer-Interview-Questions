@@ -20,6 +20,16 @@
 * How would you implement a web design comp that uses non-standard fonts?
 * Explain how a browser determines what elements match a CSS selector.
 * Describe pseudo-elements and discuss what they are used for.
+*CSS pseudo elements can be used to style only a portion of the main selected element. This is great for styling for certain events, like :active, :hover, :enabled, :only-child, etc.. They are identified by either ::name or :name. The :: are used for 5 prebuilt CSS psuedo elements (::after, ::before, ::first-line, ::first-letter, ::selection), while the : identifies the prebuilt CSS psudeo classes (:hover, :focus, etc..)
+Examples:
+p::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+} or 
+a:active {
+color: blue;
+}*
+
 * Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.
 * What does ```* { box-sizing: border-box; }``` do? What are its advantages?
 * What is the CSS `display` property and can you give a few examples of its use?
