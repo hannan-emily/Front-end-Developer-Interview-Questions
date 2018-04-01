@@ -14,6 +14,7 @@
 * What's a typical use case for anonymous functions?
 * How do you organize your code? (module pattern, classical inheritance?)
 * What's the difference between host objects and native objects?
+<span>* Javascript has built in objects awvailable for use. These are native objects to JS. These include Math, Eval, parseInt, replace, etc... Host objects are built and used by a specific enviornment (not global / native). These can include getElementById, window, document, querySelectorAll, etc. *</span>
 * Difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`?
 * What's the difference between `.call` and `.apply`?
 * Explain `Function.prototype.bind`.
@@ -25,6 +26,8 @@
   * If so, what libraries have you used?
 * Explain "hoisting".
 * Describe event bubbling.
+<span>* When an event happens on an element, it first runs the handlers on it, then on its parent, then all the way up on other ancestors. For example if we have an onClick event on a div, and any of the children elements are clicked on, the parent on, the onClick event fires. The process is called “bubbling”, because events “bubble” from the inner element up through parents like a bubble in the water, on upwards till the document object. BUT what if we want it to stop bubbling? We use the method event.stopPropagation() to indicate the event is done. *</span>
+
 * What's the difference between an "attribute" and a "property"?
 * Why is extending built-in JavaScript objects not a good idea?
 * Difference between document load event and document DOMContentLoaded event?
