@@ -2,7 +2,7 @@
 
 * Explain event delegation
 * Explain how `this` works in JavaScript
-* This identifies an object (usually) within a function, binding "this" to the element called from that object. Therefore it's easier to read and understand what's going on? This beccomes a variable with the value of the object it's calling. *
+<span>*"This" identifies an object (usually) within a function, binding "this" to the element called from that object. Therefore it's easier to read and understand what's going on? This beccomes a variable with the value of the object it's calling.*</span>
 * Explain how prototypal inheritance works
 * What do you think of AMD vs CommonJS?
 * Explain why the following doesn't work as an IIFE: `function foo(){ }();`.
